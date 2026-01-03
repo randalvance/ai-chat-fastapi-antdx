@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+
+# Virtual Environment
+.venv
+
+# FastAPI / Uvicorn
+*.log
+
+.DS_Store
+
+# Environment variables
+.env.local
+.env.*.local
+
+# Client (React/Vite) - handled by client/.gitignore
+# But list key items at root level awareness
+client/node_modules/
+client/dist/
+client/.env.local
+client/.env.production.local
+client/.env.development.local
