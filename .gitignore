@@ -20,3 +20,5 @@ client/dist/
 client/.env.local
 client/.env.production.local
 client/.env.development.local
+
+ai_chat_fastapi_antdx.egg-info
